@@ -1,0 +1,20 @@
+$color_white: #FFFFFF;
+$color_black: #231F20;
+$color_turquoise: #70CBCE;
+$color_grey: #929496;
+$color_purple: #6D3F96;
+$color_yellow: #FDC05D;
+
+$f_montserrat: 'Montserrat', sans-serif;
+$f_raleway: 'Raleway', sans-serif;
+
+@mixin bg_purple() {
+    @media screen and (max-width:576px) {
+        @content;
+    }
+}
+@mixin bg_1() {
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}

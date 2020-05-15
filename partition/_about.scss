@@ -1,0 +1,51 @@
+.about {
+    padding-bottom: 200px;
+    margin-top: 400px;
+    h3 {
+        color: $color_black;
+
+        font: {
+            weight: bold;
+            size: 17px;
+        }
+
+    }
+
+    @include bg_1() {
+        margin-top: 65px;
+    }
+    p {
+        color: $color_grey;
+        margin-bottom: 30px;
+        font: {
+            size: 17px;
+            family: $f_raleway;
+        }
+        
+        @include bg_1() {
+        margin-bottom: 60px;
+    }
+    }
+
+    .title--black1::before {
+        content: "";
+        display: block;
+        border: 4px solid $color_purple;
+        margin-bottom: 15px;
+    }
+
+    .title--black2::before {
+        content: "";
+        display: block;
+        border: 4px solid $color_turquoise;
+        margin-bottom: 15px;
+    }
+
+    .title--black3::before {
+        content: "";
+        display: block;
+        border: 4px solid $color_yellow;
+        margin-bottom: 15px;
+    }
+
+}

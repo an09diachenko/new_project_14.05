@@ -1,0 +1,72 @@
+.header {
+    padding: 30px 0;
+
+    background: {
+        image: url(images/bg1.png);
+        repeat: no-repeat;
+        size: cover;
+    }
+
+    height: 892px;
+    color: $color_white;
+    text-align: center;
+
+    h1 {
+        font-size: 55px;
+        margin: 200px 0 30px 0;
+        line-height: 67px;
+    }
+
+    &__links a {
+        display: inline-block;
+        color: $color_white;
+        margin: 0px 10px;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__item--white {
+        display: inline-block;
+        padding: 20px 0px;
+        background-color: $color_white;
+        width: 175px;
+        text-transform: uppercase;
+        color: $color_grey;
+        margin: 30px 24px;
+        border-radius: 4px;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: none;
+            color: $color_grey;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    &__item--turquoise {
+        display: inline-block;
+        padding: 20px 0px;
+        background-color: $color_turquoise;
+        width: 175px;
+        text-transform: uppercase;
+        color: $color_white;
+        margin: 30px 24px;
+        border-radius: 4px;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: none;
+            color: $color_white;
+            background-color: rgba(112, 203, 206, 0.8);
+        }
+
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

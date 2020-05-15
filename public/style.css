@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+p {
+  margin: 0; }
+
+.title--white {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center; }
+
+.title--white {
+  color: #FFFFFF; }
+
+.header {
+  padding: 30px 0;
+  background-image: url(images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 892px;
+  color: #FFFFFF;
+  text-align: center; }
+  .header h1 {
+    font-size: 55px;
+    margin: 200px 0 30px 0;
+    line-height: 67px; }
+  .header__links a {
+    display: inline-block;
+    color: #FFFFFF;
+    margin: 0px 10px; }
+    .header__links a:hover {
+      text-decoration: none; }
+  .header__item--white {
+    display: inline-block;
+    padding: 20px 0px;
+    background-color: #FFFFFF;
+    width: 175px;
+    text-transform: uppercase;
+    color: #929496;
+    margin: 30px 24px;
+    border-radius: 4px;
+    font-size: 14px; }
+    .header__item--white:hover {
+      text-decoration: none;
+      color: #929496;
+      background-color: rgba(255, 255, 255, 0.8); }
+  .header__item--turquoise {
+    display: inline-block;
+    padding: 20px 0px;
+    background-color: #70CBCE;
+    width: 175px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 30px 24px;
+    border-radius: 4px;
+    font-size: 14px; }
+    .header__item--turquoise:hover {
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: rgba(112, 203, 206, 0.8); }
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.phone {
+  padding: 77px 0px;
+  flex-direction: column;
+  background-image: url(images/bg_purple.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #FFFFFF;
+  text-align: center;
+  height: 715px; }
+  @media screen and (max-width: 576px) {
+    .phone {
+      height: 357px; } }
+  .phone__item {
+    width: inherit;
+    height: 710px;
+    margin-top: 50px;
+    margin-bottom: 200px; }
+  .phone h2 {
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .phone p {
+    font-size: 21px; }
+
+.about {
+  padding-bottom: 200px;
+  margin-top: 400px; }
+  .about h3 {
+    color: #231F20;
+    font-weight: bold;
+    font-size: 17px; }
+  @media screen and (max-width: 768px) {
+    .about {
+      margin-top: 65px; } }
+  .about p {
+    color: #929496;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif; }
+    @media screen and (max-width: 768px) {
+      .about p {
+        margin-bottom: 60px; } }
+  .about .title--black1::before {
+    content: "";
+    display: block;
+    border: 4px solid #6D3F96;
+    margin-bottom: 15px; }
+  .about .title--black2::before {
+    content: "";
+    display: block;
+    border: 4px solid #70CBCE;
+    margin-bottom: 15px; }
+  .about .title--black3::before {
+    content: "";
+    display: block;
+    border: 4px solid #FDC05D;
+    margin-bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
