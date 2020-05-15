@@ -18,3 +18,9 @@ $f_raleway: 'Raleway', sans-serif;
         @content;
     }
 }
+
+@mixin button() {
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}

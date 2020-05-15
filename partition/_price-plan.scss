@@ -1,0 +1,30 @@
+.price-plan {
+    padding: 77px 0px 200px;
+    background-color: $color_turquoise;
+    height: 803px;
+    text-align: center;
+    color: $color_white;
+    
+    h2 {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    
+    
+    li {
+        font: {
+        family: $f_raleway;
+        }
+        color: $color_black;
+    }
+    
+    li:first-child {
+        color: $color_grey;
+    }
+    button {
+        width: 350px;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+}
