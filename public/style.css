@@ -152,14 +152,53 @@ p {
   .price-plan h2 {
     font-weight: bold;
     margin-bottom: 30px; }
-  .price-plan li {
-    font-family: "Raleway", sans-serif;
-    color: #231F20; }
-  .price-plan li:first-child {
-    color: #929496; }
-  .price-plan button {
-    width: 350px;
-    text-transform: uppercase;
-    padding: 20px; }
+  .price-plan__item {
+    width: 380px;
+    margin-top: 60px; }
+    .price-plan__item h3 {
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      background-color: #231F20;
+      padding: 20px;
+      margin: 0px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+    .price-plan__item p {
+      font-size: 35px;
+      background-color: rgba(39, 29, 29, 0.9); }
+    .price-plan__item li {
+      font-family: "Raleway", sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      border: 1px dashed #E8EAEA;
+      color: #231F20;
+      background-color: #FFFFFF;
+      padding: 15px 20px; }
+    .price-plan__item li:first-child {
+      color: #929496;
+      font-weight: normal;
+      border-top: none; }
+    .price-plan__item button {
+      text-transform: uppercase;
+      padding: 15px 20px;
+      color: #70CBCE;
+      font-size: 17px;
+      font-weight: bold;
+      font-family: "Raleway", sans-serif; }
+
+.footer {
+  padding: 120px 0px;
+  color: #929496; }
+  .footer__icons i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #ccc;
+    text-align: center;
+    border: 2px solid #767272;
+    border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */

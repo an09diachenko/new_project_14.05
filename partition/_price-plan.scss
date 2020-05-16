@@ -4,27 +4,61 @@
     height: 803px;
     text-align: center;
     color: $color_white;
-    
+
     h2 {
         font-weight: bold;
         margin-bottom: 30px;
     }
 
-    
-    
-    li {
-        font: {
-        family: $f_raleway;
+    &__item {
+        width: 380px;
+        margin-top: 60px;
+
+        h3 {
+            font: {
+                size: 14px;
+                family: $f_montserrat;
+            }
+
+            background-color: $color_black;
+            padding: 20px;
+            margin: 0px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
         }
-        color: $color_black;
-    }
-    
-    li:first-child {
-        color: $color_grey;
-    }
-    button {
-        width: 350px;
-        text-transform: uppercase;
-        padding: 20px;
+
+        p {
+            font-size: 35px;
+            background-color: rgba(39, 29, 29, 0.9);
+        }
+
+        li {
+            font: {
+                family: $f_raleway;
+                size: 15px;
+                weight: bold;
+            }
+
+            border: 1px dashed #E8EAEA;
+            color: $color_black;
+            background-color: $color_white;
+            padding: 15px 20px;
+        }
+
+        li:first-child {
+            color: $color_grey;
+            font-weight: normal;
+            border-top: none;
+        }
+
+        button {
+            text-transform: uppercase;
+            padding: 15px 20px;
+            color: $color_turquoise;
+            font-size: 17px;
+            font-weight: bold;
+            font-family: $f_raleway;
+        }
+
     }
 }

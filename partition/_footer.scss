@@ -1,0 +1,19 @@
+.footer {
+    padding: 120px 0px;
+    color: $color_grey;
+    
+    &__icons i {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 10px 5px;
+        font-size: 25px;
+        line-height: 40px;
+        color: #ccc;
+        text-align: center;
+        border: 2px solid #767272;
+        border-radius: 5px;
+    }
+    
+}
+
