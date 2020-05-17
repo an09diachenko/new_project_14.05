@@ -30,6 +30,10 @@
         p {
             font-size: 35px;
             background-color: rgba(39, 29, 29, 0.9);
+            
+            span {
+                color: $color_grey;
+            }
         }
 
         li {

@@ -1,0 +1,45 @@
+.invite {
+    padding: 200px 0;
+    height: 819px;
+    background-color: #F2F2F2;
+    font-family: $f_montserrat;
+    text-align: center;
+    
+    i {
+        display: inline-block;
+        color: $color_turquoise;
+        font-size: 30px;
+        padding: 20px;
+        border: 3px solid $color_turquoise;
+        border-radius: 100%;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 40px;
+        margin: 30px 0; 
+    }
+    input {
+        display: block;
+        margin: 30px auto;
+        border: none;
+    }
+    [type=email] {
+        width: 380px;
+        height: 55px;
+        padding: 0 35px;
+        color: $color_grey;
+        text-transform: capitalize;
+        border-radius: 3px;
+    }
+    [type=submit] {
+        text-transform: uppercase;
+        background-color: $color_turquoise;
+        width: 175px;
+        height: 55px;
+        color: $color_white;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+}
