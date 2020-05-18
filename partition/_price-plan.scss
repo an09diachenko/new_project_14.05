@@ -1,9 +1,13 @@
 .price-plan {
     padding: 77px 0px 200px;
     background-color: $color_turquoise;
-    height: 803px;
+    min-height: 803px;
     text-align: center;
     color: $color_white;
+    
+    &__item:hover {
+        transform: scale(1.2);
+    }
 
     h2 {
         font-weight: bold;
@@ -11,8 +15,9 @@
     }
 
     &__item {
-        width: 380px;
         margin-top: 60px;
+        transition-property: transform;
+        transition-duration: 1s;
 
         h3 {
             font: {
@@ -56,12 +61,18 @@
         }
 
         button {
+            width: 100%;
             text-transform: uppercase;
             padding: 15px 20px;
             color: $color_turquoise;
             font-size: 17px;
             font-weight: bold;
             font-family: $f_raleway;
+            border: none;
+            
+            &:hover {
+                background-color: #e5e5e5;
+            }
         }
 
     }

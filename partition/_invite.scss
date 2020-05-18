@@ -31,6 +31,7 @@
         color: $color_grey;
         text-transform: capitalize;
         border-radius: 3px;
+        outline: none;
     }
     [type=submit] {
         text-transform: uppercase;
@@ -40,6 +41,10 @@
         color: $color_white;
         font-size: 14px;
         border-radius: 4px;
+        
+        &:hover {
+            background-color: #52b7ba;
+        }
     }
 
 }

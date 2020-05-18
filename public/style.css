@@ -118,7 +118,8 @@ p {
     font-size: 17px; }
   @media screen and (max-width: 768px) {
     .about {
-      margin-top: 65px; } }
+      margin-top: 65px;
+      padding-bottom: 0; } }
   .about p {
     color: #929496;
     margin-bottom: 30px;
@@ -146,15 +147,18 @@ p {
 .price-plan {
   padding: 77px 0px 200px;
   background-color: #70CBCE;
-  height: 803px;
+  min-height: 803px;
   text-align: center;
   color: #FFFFFF; }
+  .price-plan__item:hover {
+    transform: scale(1.2); }
   .price-plan h2 {
     font-weight: bold;
     margin-bottom: 30px; }
   .price-plan__item {
-    width: 380px;
-    margin-top: 60px; }
+    margin-top: 60px;
+    transition-property: transform;
+    transition-duration: 1s; }
     .price-plan__item h3 {
       font-size: 14px;
       font-family: "Montserrat", sans-serif;
@@ -181,12 +185,16 @@ p {
       font-weight: normal;
       border-top: none; }
     .price-plan__item button {
+      width: 100%;
       text-transform: uppercase;
       padding: 15px 20px;
       color: #70CBCE;
       font-size: 17px;
       font-weight: bold;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Raleway", sans-serif;
+      border: none; }
+      .price-plan__item button:hover {
+        background-color: #e5e5e5; }
 
 .invite {
   padding: 200px 0;
@@ -215,7 +223,8 @@ p {
     padding: 0 35px;
     color: #929496;
     text-transform: capitalize;
-    border-radius: 3px; }
+    border-radius: 3px;
+    outline: none; }
   .invite [type=submit] {
     text-transform: uppercase;
     background-color: #70CBCE;
@@ -224,6 +233,8 @@ p {
     color: #FFFFFF;
     font-size: 14px;
     border-radius: 4px; }
+    .invite [type=submit]:hover {
+      background-color: #52b7ba; }
 
 .footer {
   padding: 120px 0px;
