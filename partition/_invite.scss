@@ -4,7 +4,6 @@
     background-color: #F2F2F2;
     font-family: $f_montserrat;
     text-align: center;
-    
     i {
         display: inline-block;
         color: $color_turquoise;
@@ -13,7 +12,6 @@
         border: 3px solid $color_turquoise;
         border-radius: 100%;
     }
-    
     h2 {
         font-weight: bold;
         font-size: 40px;
@@ -41,10 +39,8 @@
         color: $color_white;
         font-size: 14px;
         border-radius: 4px;
-        
         &:hover {
             background-color: #52b7ba;
         }
     }
-
 }

@@ -4,64 +4,54 @@
     min-height: 803px;
     text-align: center;
     color: $color_white;
-    
     &__item:hover {
         transform: scale(1.2);
     }
-
     h2 {
         font-weight: bold;
         margin-bottom: 30px;
     }
-
     &__item {
         margin-top: 60px;
         transition-property: transform;
         transition-duration: 1s;
-
         h3 {
             font: {
                 size: 14px;
                 family: $f_montserrat;
             }
-
             background-color: $color_black;
             padding: 20px;
             margin: 0px;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
         }
-
         p {
             font-size: 35px;
             background-color: rgba(39, 29, 29, 0.9);
-            
             span {
                 color: $color_grey;
             }
         }
-
         li {
             font: {
                 family: $f_raleway;
                 size: 15px;
                 weight: bold;
             }
-
             border: 1px dashed #E8EAEA;
             color: $color_black;
             background-color: $color_white;
             padding: 15px 20px;
         }
-
         li:first-child {
             color: $color_grey;
             font-weight: normal;
             border-top: none;
         }
-
         button {
             width: 100%;
+            margin: -16px;
             text-transform: uppercase;
             padding: 15px 20px;
             color: $color_turquoise;
@@ -69,11 +59,9 @@
             font-weight: bold;
             font-family: $f_raleway;
             border: none;
-            
             &:hover {
                 background-color: #e5e5e5;
             }
         }
-
     }
 }

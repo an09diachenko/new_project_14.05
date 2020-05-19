@@ -4,14 +4,11 @@
         size: 40px;
         weight: bold;
     }
-
     text-align: center;
 }
-
 .title {
     &--white {
         @extend %for_title;
         color: $color_white;
     }
-
 }

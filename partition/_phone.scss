@@ -8,15 +8,12 @@
         attachment: fixed;
         position: center;
     }
-    
-    @include bg_purple() {
+    @include phone() {
         height: 357px;
     }
-    
     color: $color_white;
     text-align: center;
     height: 715px;
-    
     &__item {
         width: inherit;
         height: 710px;
@@ -29,7 +26,6 @@
         }
         margin-bottom: 30px;
     }
-
     p {
         font-size: 21px;
     }

@@ -3,7 +3,6 @@
     height: 271px;
     color: $color_grey;
     line-height: 3em;
-    
     &__icons i {
         display: inline-block;
         width: 40px;
@@ -16,6 +15,7 @@
         border: 1px solid $color_grey;
         border-radius: 3px;
     }
-    
+    @include tablet() {
+        text-align: center;
+    }  
 }
-
